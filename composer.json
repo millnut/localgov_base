@@ -1,0 +1,17 @@
+{
+    "name": "millnut/localgov_base",
+    "description": "Simple base configuration for LocalGov Drupal.",
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Lee Mills",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "drupal/core": "^10.0",
+        "localgovdrupal/localgov": "^3.0",
+        "localgovdrupal/localgov_search_solr": "^1.1"
+    }
+}
