@@ -86,3 +86,9 @@ config:
     system.theme:
       simple_config_update:
         default: localgov_scarfolk
+    user.role.localgov_admin:
+      # If this role already exists, then this action has no effect. If it doesn't exist, we'll create it with the following values.
+      createIfNotExists:
+        id: localgov_admin
+        label: LocalGov Admin
+        is_admin: true
